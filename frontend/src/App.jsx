@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import AdminLayout from "./layouts/AdminLayout";
 import AdminLogin from "./pages/admin/Auth/AdminLogin";
 import AdminDashboard from "./pages/admin/Dashboard/AdminDashboard";
