@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "private": true,
-
+"homepage" : "https://vaibhavkharvi.github.io/Car-Rental",
   "proxy": "http://localhost:5000",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -19,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
